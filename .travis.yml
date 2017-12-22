@@ -1,2 +1,11 @@
 language: node_js
 node_js: node
+notifications:
+  email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: qOsNwM42sPFQUeGBcnNhb1NnF4EvrMnhj7muEp6AS1oWUd3NQFKFaDgPM2fYRNP1/aynI3fo+8rgwpICUHN2xXZxPJPQ3kwM1E3w/G7dLQWL115eAeKOlvYnKnMKAH3BlAcr14p3ONelvUftqOQLkDkfdBYvmL/6yUGaVRO33m7lM9nBsmK6aAGRhUKJ7EFe8Jmbn+6IkBmP+Sv9zfOcR/ZjjhePATSRZHS51lozQ82NPYoICNnYgLdhc1A7vplwQSXHopvnyHVC6elxTNaCi34ee/cjfU2rCNUFd615wr6fYvuhIma4CbqdvFgdvLtdy7c00a3Fo82lfz+I8GWAb2iGgSKOpiqaUW2tfPXxE0WuBTmY5E/pBhiohe9wNeI/V1UlChR+yB6JntX4kxPCIgVummPhryhQ7fWdqZi5/T1hXPD2wnkmipaIA8H2nm3HiVI8foZOTxvIhgzEpJ93N1fPua0CB5h+K0WypsfieKTenBhDsPj/YPhKR7HrMCfSc9/WnMO1DnjeNuf2beBvwdEBYAv/YCgeLP52GQkLNii3RtP3XMBlIcT4pia+2X47c2U0yfvL5iSCrlBAQMxbU/vTUq9588J4ccE/PMWiWEDQLckiylOV//mv7Y6lGGoicpgPB5BDsPcAY7uEpDNhY+Ukiru2iTZpgpDmS6Idfvo=
+  app: morning-ravine-90702
+  on:
+    repo: jeffbernst/blog-api-challenge
